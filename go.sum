@@ -1,0 +1,8 @@
+github.com/KoNekoD/rootpath v0.0.0-20250307201116-bf5ebc782468 h1:8fC2dVMqO5hdsLDf3j82URxak3rMSnA52/bjT/g2EX0=
+github.com/KoNekoD/rootpath v0.0.0-20250307201116-bf5ebc782468/go.mod h1:xBwhKiuUiCvSC6LB1BxzWaSAuejeAUszJPhwidKK0ts=
+github.com/KoNekoD/rootpath v0.0.0-20250307201542-0259abb55d0f h1:lu3CYX6ud9dUHIftr3dEV+Ga0UjiWwGCGaee2ZF+qak=
+github.com/KoNekoD/rootpath v0.0.0-20250307201542-0259abb55d0f/go.mod h1:xBwhKiuUiCvSC6LB1BxzWaSAuejeAUszJPhwidKK0ts=
+github.com/KoNekoD/rootpath v0.0.1 h1:Yv5Y09tFHFYFywEQ0+YDvvKGEwbAOWtN1d+JQ4Tg50s=
+github.com/KoNekoD/rootpath v0.0.1/go.mod h1:xBwhKiuUiCvSC6LB1BxzWaSAuejeAUszJPhwidKK0ts=
+github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
+github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
