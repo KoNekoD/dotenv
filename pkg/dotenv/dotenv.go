@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	_ "github.com/KoNekoD/rootpath/pkg/rootpath"
+	"github.com/KoNekoD/rootpath/pkg/rootpath"
 	"io"
 	"os"
 	"regexp"
@@ -32,6 +32,8 @@ var (
 
 // LoadEnv loads env files by path, in order of precedence
 func LoadEnv(path ...string) error {
+	rootpath.MustChdir()
+
 	if len(path) != 1 {
 		path = []string{".env"}
 	}
