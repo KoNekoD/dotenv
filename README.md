@@ -16,11 +16,14 @@ Real environment variables win over .env files.
 package services
 
 import (
-	"auth-service/internal/dtos"
 	"github.com/KoNekoD/dotenv/pkg/dotenv"
 	"github.com/pkg/errors"
 	"os"
 )
+
+type Config struct {
+	JwtSecret string
+}
 
 func NewConfig() *dtos.Config {
 	err := dotenv.LoadEnv(".env")
@@ -33,7 +36,7 @@ func NewConfig() *dtos.Config {
 		panic(errors.New("JWT_SECRET environment variable is required"))
 	}
 
-	return &dtos.Config{
+	return &Config{
 		JwtSecret: jwtSecret,
 	}
 }
