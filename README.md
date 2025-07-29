@@ -26,7 +26,7 @@ type Config struct {
 }
 
 func NewConfig() *dtos.Config {
-	err := dotenv.LoadEnv(".env")
+	err := dotenv.LoadEnv()
 	if err != nil {
 		panic(errors.Wrap(err, "failed to load .env file"))
 	}
